@@ -34,4 +34,4 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 - Celebrate your achievements and reflect on your growth throughout the challenge.
 
 ## Folder Structure
-- #### [Day1]()
+- #### [Day1](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/03222c7efb7ee1600e5db37d106867b9d32229f6/day1.md)
