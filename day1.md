@@ -2,7 +2,7 @@
 
 ## Lesson Summary
 
-## Coding Example
+## Coding Examples
 ```javascript
 
 ```
