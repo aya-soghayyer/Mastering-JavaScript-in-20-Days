@@ -45,6 +45,7 @@ c *= 10;
 - js is a browser's js console , local txt file in editor e.g : TextEdit , VS code .online playground e.g : CodePen, CodeSandbox.
 - dom : document object model.
 - top level element in html page is attribute <html></html>.
+- how to find the elements in js : document.title , document.body , document.body.children , document.title, document.getElementById("board), document.querySelector("#board"), clear(),document.getElementsByTagName("h1"), document.querySelectorAll("h1"),document.getElementsByClassName("player"),document.querySelectorAll(".player").
 - 
 
 
