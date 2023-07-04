@@ -35,4 +35,16 @@ c *= 10;
 
 ```
 #  Notes for me => 
+- js : interact programming language and used to modify a websites with HTML language .
+- use js as a compilation target : it mean some other language that then gets translated to js to run in the web browser  like typeScript and ClojureScript.
+- creator's name  brendan eich.
+- js's birth year : 1995.
+- html for content structure.
+- html like a noun , css like adjective and js like verb and that is a pure and good analogy.
+- console is kind of a live dynamic sort of  interpreter for js that we can use.
+- js is a browser's js console , local txt file in editor e.g : TextEdit , VS code .online playground e.g : CodePen, CodeSandbox.
+- dom : document object model.
+- top level element in html page is attribute <html></html>.
+- 
+
 
