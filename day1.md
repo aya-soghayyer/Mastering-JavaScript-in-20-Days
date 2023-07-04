@@ -16,8 +16,21 @@
 
 My Solution:
 ```javascript
-// challenge 1 :
-// challenge 2 :
+// challenge 1
+
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+// Only change code below this line
+b *= 3;
+a *= 5;
+c *= 10;
+
+// challenge 2
+
+
+
 // challenge 3 :
 
 ```
