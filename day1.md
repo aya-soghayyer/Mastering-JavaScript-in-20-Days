@@ -17,6 +17,17 @@ document.getElementById("p1-symbol").textContent
 
 document.querySelector("h2").textContent
 // the result : 'A game you know'
+
+// add (and love) to h2 
+document.querySelector("header h2").append(" and love")
+
+//swap the symbols x & o  :
+document.getElementById("p2-symbol").textContent= "X"
+//the result : 'X'
+
+document.getElementById("p1-symbol").textContent = document.getElementById("p2-symbol").textContent
+//the result : 'O'
+
 ```
 
 ## Coding Challenges from FreeCodeCamp
