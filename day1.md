@@ -28,6 +28,21 @@ document.getElementById("p2-symbol").textContent= "X"
 document.getElementById("p1-symbol").textContent = document.getElementById("p2-symbol").textContent
 //the result : 'O'
 
+// put my last name in the player's  name
+document.getElementById("p1-name").append(" soghayyer")
+
+//conver Tic Tac Toe to upper case
+ocument.querySelector("h1").textContent.toLocaleUpperCase()
+//the result : 'TIC TAC TOE'
+
+//test if this substring in the title of page 
+document.title.includes("JavaScript")
+//the result : false
+
+//Retrieve the first "T" in the page title
+document.title[9]
+//the result : 'T'
+
 ```
 
 ## Coding Challenges from FreeCodeCamp
