@@ -2,6 +2,7 @@
 
 ## Lesson Summary
 I have learned in this lesson about a several issues i'll mention them in the bellow:
+
 dom : document oberject model , And i know a new function and document objects like document.title , document.body , document.body.children , document.title, document.getElementById("board), document.querySelector("#board"), clear(),document.getElementsByTagName("h1") etc.. , then i learned about values and how to declare them via date type and there are two types of data type : 1. Primitive  type : null, undefind , number , string , symbol , boolean . 2.Object / References type : object , array, funciton , class ...etc . 
 also now i know some operators that use on execut the operations on the js elements or variables . 
 
