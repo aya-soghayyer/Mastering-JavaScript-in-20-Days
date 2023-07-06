@@ -10,7 +10,7 @@
 ```
 
 ## Coding Exercises
-### [Profile Lockup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
+1. ### [Profile Lockup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
 
 my solution:
 ```javascript
