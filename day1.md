@@ -5,7 +5,18 @@
 
 ## Coding Examples
 ```javascript
+// tic tac teo project :
+document.getElementsByTagName("p")
+// the result : HTMLCollection(2) [p#p1.player, p#p2.player, p1: p#p1.player, p2: p#p2.player]
 
+document.getElementsByClassName("square").length
+// the result : 9
+
+document.getElementById("p1-symbol").textContent
+// the result : 'x'
+
+document.querySelector("h2").textContent
+// the result : 'A game you know'
 ```
 
 ## Coding Challenges from FreeCodeCamp
