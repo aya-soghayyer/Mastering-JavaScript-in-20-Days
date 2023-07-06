@@ -87,5 +87,6 @@ c *= 10;
  undefined it suppose that sth here like a value but there is nothing cause have a mistake .
  null : it is usually ther is nothing .
 -Functions in js :) => typeof , indexof(""), includes(""), startsWith(""),toLowerCase(), append("").
+- ** it's equivalent with Math.pow(),  for example 3**4 = math.pow(3,4)= 81 .
 
 
