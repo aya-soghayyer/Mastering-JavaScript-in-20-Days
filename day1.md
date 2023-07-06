@@ -86,5 +86,6 @@ c *= 10;
 -the difference between undefined and null =>
  undefined it suppose that sth here like a value but there is nothing cause have a mistake .
  null : it is usually ther is nothing .
+-Functions in js :) => typeof , indexof(""), includes(""), startsWith(""),toLowerCase(), append("").
 
 
