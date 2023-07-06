@@ -46,6 +46,6 @@ c *= 10;
 - dom : document object model.
 - top level element in html page is attribute <html></html>.
 - how to find the elements in js : document.title , document.body , document.body.children , document.title, document.getElementById("board), document.querySelector("#board"), clear(),document.getElementsByTagName("h1"), document.querySelectorAll("h1"),document.getElementsByClassName("player"),document.querySelectorAll(".player").
-- hello
+- 
 
 
