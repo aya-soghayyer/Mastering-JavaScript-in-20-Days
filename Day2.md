@@ -6,6 +6,15 @@
 
 ## Coding Examples
 ```javascript
+// in Tic Tac Toe project :
+//declare my name :
+const aya = "Aya";
+
+//The combined age of your parents
+let combainedParentsAge = 45 + 56;
+
+//The #board element on the page
+let board = document.querySelector("#board");
 
 ```
 
