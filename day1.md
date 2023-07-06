@@ -47,11 +47,7 @@ document.title[9]
 
 ## Coding Challenges from FreeCodeCamp
 1. #### [Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
-2. #### [Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
-3. #### [Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
-
-
-My Solution:
+ My Solution:
 ```javascript
 // challenge 1
 
@@ -63,8 +59,23 @@ let c = 4.6;
 b *= 3;
 a *= 5;
 c *= 10;
+```
 
+
+2. #### [Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
+
+  My Solution:
+```javascript
 // challenge 2
+let myStr= "This is the first sentence. ";
+myStr += "This is the second sentence."
+```
+
+3. #### [Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
+
+
+ My Solution:
+```javascript
 
 
 
