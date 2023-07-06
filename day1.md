@@ -55,7 +55,6 @@ let a = 5;
 let b = 12;
 let c = 4.6;
 
-// Only change code below this line
 b *= 3;
 a *= 5;
 c *= 10;
@@ -67,6 +66,7 @@ c *= 10;
   My Solution:
 ```javascript
 // challenge 2
+
 let myStr= "This is the first sentence. ";
 myStr += "This is the second sentence."
 ```
@@ -77,9 +77,10 @@ myStr += "This is the second sentence."
  My Solution:
 ```javascript
 
-
-
 // challenge 3 :
+
+const lastName = "Lovelace";
+const secondToLastLetterOfLastName = lastName[lastName.length-2]; 
 
 ```
 #  Notes for me => 
