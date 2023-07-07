@@ -69,12 +69,12 @@ My solution:
 
 ```
 # Notes for me => 
+
 -Arrays can hold any type of items or mix and match.
 -when I push some of the numbers in an array using function push like this format push([]),  it will make a nested array.
--"Mutable" data can be edited (e.g. Arrays, objects)
-"Immutable" data always stays the same (e.g. strings & other primitives).
+-"Mutable" data can be edited (e.g. Arrays, objects) . "Immutable" data always stays the same (e.g. strings & other primitives).
 -concat() did not change the original Array. It changed the new Array.
--Using immutable data & variables is usually best
+-Using immutable data & variables is usually best.
 -if I use mutable value in immutable, we'll break the rule of immutable (I can make some edits in ). 
 -jects collect multiple values together to describe more complex data.
 Arrays are just a special kind of object.
