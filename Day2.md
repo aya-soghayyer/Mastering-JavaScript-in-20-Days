@@ -26,3 +26,5 @@ my solution:
 
 ```
 # Notes for me => 
+-Arrays can hold any type of items, or mix and match
+
