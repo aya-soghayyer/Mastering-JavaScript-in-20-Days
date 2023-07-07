@@ -16,6 +16,23 @@ let combainedParentsAge = 45 + 56;
 //The #board element on the page
 let board = document.querySelector("#board");
 
+["c", "a", "d", "b"].sort()
+//the result : (4) ['a', 'b', 'c', 'd']
+
+[1, 2, 3].concat([4, 5, 6])
+//the result : (6) [1, 2, 3, 4, 5, 6]
+
+//when i push one number in push function vs push more than one number in push function
+let a = [1,2,3]
+a
+//the result : (3) [1, 2, 3]0: 11: 22: 3length: 3[[Prototype]]: Array(0)
+a.push(4)
+a
+//the result : (4) [1, 2, 3, 4]
+a.push([5,6,7])
+a
+//the result : (5) [1, 2, 3, 4, Array(3)]0: 11: 22: 33: 44: (3) [5, 6, 7]length: 5[[Prototype]]: Array(0)
+
 ```
 
 ## Coding Exercises
@@ -26,5 +43,9 @@ my solution:
 
 ```
 # Notes for me => 
--Arrays can hold any type of items, or mix and match
+-Arrays can hold any type of items, or mix and match.
+-when I push some of number in array using function push like this format push([]),  it will make a nested array .
+-"Mutable" data can be edited (e.g. Arrays)
+"Immutable" data always stays the same (e.g. strings & other primitives).
+-concat() did not change the original array it changed the new array.
 
