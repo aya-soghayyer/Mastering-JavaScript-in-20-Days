@@ -100,7 +100,7 @@ const secondToLastLetterOfLastName = lastName[lastName.length-2];
 - how to find the elements in js: document.title, document.body, document.body.children, document.title, document.getElementById("board),   
  document.querySelector("#board"), clear(),document.getElementsByTagName("h1"), 
  document.querySelectorAll("h1"),document.getElementsByClassName("player"),document.querySelectorAll(".player").
--the difference between undefined and null =>
+- the difference between undefined and null =>
  undefined it suppose that sth here is like a value but there is nothing cause have a mistake.
  null: it is usually there is nothing.
 -Functions in js :) => typeof , indexof(""), includes(""), startsWith(""),toLowerCase(), append("").
