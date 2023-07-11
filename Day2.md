@@ -2,6 +2,12 @@
 
 
 ## Lesson Summary
+In this session, I learned new three essential topics: 
+1. Expressions: the main difference between expressions and statements is expression is some operation or sentence in js without containing a (=) sign in it, and a statement is vice versa, the sentence to be a statement should contain a (=) sign.
+2. Arrays: a set of multiple values that keep them together in one variable which helps to save the storage, also we have functions that are used in arrays I mentioned below
+3. Objects: collect multiple values together to describe data or complex data, also we'd token about built-in objects like math, console, strings, and documents, for more details go to  Notes for me.
+4. Mutable: data can be edited like arrays.
+5. Immutable: date stays the same.
 
 
 ## Coding Examples
@@ -59,6 +65,15 @@ spiceGirls.members[4].name
 spiceGirls.members[1].nickname
 //the result: 'Ginger'
 
+// array can contain a mix of values in one variable
+let mixedArray = ["pop", 6, "squish", false, document];
+
+
+//this in a method lets us reference other properties on the object
+anjana.speak = function () {
+    console.log("Hi my name is", this.name);
+}
+anjana.speak();
 ```
 
 ## Coding Exercises
@@ -133,19 +148,29 @@ console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']
 
 My solution:
 ```javascript
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment , 'is', 'fun']; // Change this line
+  return sentence;
+}
 
+console.log(spreadOut());
 ```
 # Notes for me => 
 
-- Arrays can hold any type of items or mix and match.
+- Arrays can hold any type of item or mix and match.
 - when I push some of the numbers in an array using function push like this format push([]),  it will make a nested array.
-- "Mutable" data can be edited (e.g. Arrays, objects) . "Immutable" data always stays the same (e.g. strings & other primitives).
+- "Mutable" data can be edited (e.g. Arrays, objects). "Immutable" data always stays the same (e.g. strings & other primitives).
 - concat() did not change the original Array. It changed the new Array.
 - Using immutable data & variables is usually best.
 - if I use mutable value in immutable, we'll break the rule of immutable (I can make some edits in ). 
 - jects collect multiple values together to describe more complex data.
   Arrays are just a special kind of object.
 - Properties can point to functions, too. We call function-properties "methods" on objects
+- Functions in js :) => typeof , indexof(""), includes(""), startsWith(""),toLowerCase(), append("").
+- Functions that can used in array: sort() , Join(''),pop(), push(), concat([]).
+- Console's functions:  warn(""), error(""), log() , clear()
+- Math Functions: math.random(), math.pi, math.aps(number)
 
 
 
