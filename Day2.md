@@ -66,6 +66,73 @@ spiceGirls.members[1].nickname
 
 My solution:
 ```javascript
+const contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
+
+function lookUpProfile(name, prop) {
+  // Only change code below this line
+ for(var i = contacts.length-1 ; i>=0 ; i--){
+    
+     if ( contacts[i].firstName === name ){
+      if ( prop ==="lastName"  ){return contacts[i][prop] ;}
+      else if ( prop ==="number"  ){return contacts[i][prop] ;}
+       else if ( prop ==="likes"  ){return contacts[i][prop]; }
+       else {
+         return "No such property";
+       }
+    }
+  }
+ 
+    return "No such contact";
+  
+  // Only change code above this line
+}
+
+lookUpProfile("Akira", "likes")
+```
+
+2. ### [Copy Array Items Using slice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
+
+My solution:
+```javascript
+function forecast(arr) {
+  // Only change code below this line
+
+  return arr.slice(2,4);
+}
+
+// Only change code above this line
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+```
+
+3. ### [Combine Arrays with the Spread Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)
+
+My solution:
+```javascript
 
 ```
 # Notes for me => 
