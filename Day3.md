@@ -2,7 +2,7 @@
 
 
 ## Lesson Summary
-
+I've learned about functions and how can I declare a normal function and an arrow function also I had knowledge about scopes and how they impact the value of variables.
 
 ## Coding Examples
 ```javascript
