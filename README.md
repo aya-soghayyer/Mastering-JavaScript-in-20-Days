@@ -36,7 +36,7 @@ In this challenge, I will enhance my JavaScript skills and knowledge. Each day, 
 ## Folder Structure
 - #### [Day1](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/03222c7efb7ee1600e5db37d106867b9d32229f6/day1.md)
 - #### [Day2](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/main/Day2.md)
-- #### [Day3](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/03222c7efb7ee1600e5db37d106867b9d32229f6/day1.md)
+- #### [Day3](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/main/Day3.md)
 - #### [Day4](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/main/Day4.md)
 - #### [Day5](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/03222c7efb7ee1600e5db37d106867b9d32229f6/day1.md)
 - #### [Day6](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/03222c7efb7ee1600e5db37d106867b9d32229f6/day1.md)
