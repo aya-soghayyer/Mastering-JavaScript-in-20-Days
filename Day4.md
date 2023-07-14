@@ -2,7 +2,8 @@
 
 
 ## Lesson Summary
-in this lesson I've learned new topics in below 
+in this lesson I've learned new topics in below : 
+event & handlers: now I know some events like addEventlitener contains two prototypes first one for action or event and the second for functions or statements or anything that will execute when pressing the event, then I learned to map and filter that they used in the array or object to copy the elements in new variable or to filter the array and put the values were filtered in a new variable, Also, I complete the Doggos Game with this lesson. 
 
 ## Coding Examples
 ```javascript
