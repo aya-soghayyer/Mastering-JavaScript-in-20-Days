@@ -57,3 +57,5 @@ It takes time for Promises to resolve, so they are "asynchronous"
 - [destructuring img](https://raw.githubusercontent.com/SaraVieira/open-source-stickers/master/stickers/deconstructing-unicorn/unicorn.png)
 - Destructuring is a fancy way of declaring multiple variables at once
 - We can use commas to "skip" values
+- putting the keyword acync in fron of function , this tells js thet this is gonna be a function that's carrying out some kind of potentially long-running asynchronous operation
+- 
