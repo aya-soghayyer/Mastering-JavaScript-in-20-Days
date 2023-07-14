@@ -23,6 +23,22 @@ fetch("https://dog.ceo/api/breed/hound/list").then((value)=> console.log(value))
 //the result1: Promise {<pending>}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[PromiseResult]]: undefined
 //the result2: VM397:1 Response {type: 'cors', url: 'https://dog.ceo/api/breed/hound/list', redirected: false, status: 200, ok: true, …}
 
+//We can use ... to collect remaining values
+let[one, ...others]= [1,2,4,5,6,]
+one
+//the result: 1
+others
+//the result: (4) [2, 4, 5, 6]
+
+//We can use commas to "skip" values
+let [one, two ,,, others ]= [1,2,3,4,5,6,6,6,7,7,8,8,]
+one
+//the result: 1
+two
+//the result: 2
+others
+//the result: 5
+
 ```
 
 ## Coding Exercises
@@ -38,5 +54,6 @@ pending: still waiting for the value, hang tight
 fulfilled (aka "resolved"): finally got the value, all done
 rejected: sorry couldn't get the value, all done
 It takes time for Promises to resolve, so they are "asynchronous"
-
-- [destructuring](https://raw.githubusercontent.com/SaraVieira/open-source-stickers/master/stickers/deconstructing-unicorn/unicorn.png)
+- [destructuring img](https://raw.githubusercontent.com/SaraVieira/open-source-stickers/master/stickers/deconstructing-unicorn/unicorn.png)
+- Destructuring is a fancy way of declaring multiple variables at once
+- We can use commas to "skip" values
