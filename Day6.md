@@ -1,4 +1,4 @@
-# Day1 : Introduction , DOM , Values & Data Types , Operators
+# Day6 : Introduction, JavaScript Principles ,Functions & Callbacks
 
 ## Lesson Summary
 
