@@ -34,4 +34,8 @@
 ```
 #  Notes for me => 
 - create a brand new via execution context.
-
+- scope rule: what's called lexical or static scoping t.
+- backpack
+- closure
+- helper functions
+- memorization
