@@ -1,4 +1,5 @@
-# Day6: Introduction, JavaScript Principles,Functions & Callbacks
+# Day7: Closures
+
 
 ## Lesson Summary
 
