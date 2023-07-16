@@ -37,12 +37,51 @@ map([1,2,3,4,5], multiplyByTwo); //-> [2,4,6,8,10]
 multiplyByTwo(1); //-> 2
 multiplyByTwo(2); //-> 4
   */
+function map(array, callback) {
+   const output = []; 
+   for(let i = 0 ;i< array.length ; i++){
+     output.push(callback(array[i]));
+   }
+   return output ; 
 
+ }
+
+  console.log(map([1, 2, 3], addTwo));
+
+/*Challenge 4
+Create a function called forEach that takes an array and a callback, and runs the callback on each element of the array. forEach does not return anything.
+let alphabet = '';
+const letters = ['a', 'b', 'c', 'd'];
+forEach(letters, function(char) {
+  alphabet += char;
+});
+console.log(alphabet);   //prints 'abcd'*/
+function forEach(array, callback) {
+  const output = []
+  for(let i=0  ; i<array.length ; i++)
+output.push(callback(array[i]));
+  return output;
+}
+
+// see for yourself if your forEach works!
+console.log(forEach([1,2,3], addTwo));
+
+/*Challenge 5
+In challenge 3, you've created a function called map. In this challenge, you're going to rebuild the map function by creating a function called mapWith. This time you're going to use forEach inside of mapWith instead of using a for loop.*/
+
+function mapWith(array, callback) {
+  let output = [];
+ output= forEach(array , callback );
+ 
+    return output;
+}
+console.log(mapWith([1,2,3], addTwo));
 
 ```
 
 ## Coding Challenges from FreeCodeCamp
-1. #### [Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
+1. #### [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem
+](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
  My Solution:
 ```javascript
 
