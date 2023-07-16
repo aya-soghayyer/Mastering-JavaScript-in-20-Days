@@ -1,4 +1,4 @@
-# Day6 : Introduction, JavaScript Principles ,Functions & Callbacks
+# Day6: Introduction, JavaScript Principles,Functions & Callbacks
 
 ## Lesson Summary
 
@@ -80,8 +80,7 @@ console.log(mapWith([1,2,3], addTwo));
 ```
 
 ## Coding Challenges from FreeCodeCamp
-1. #### [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem
-](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
+1. #### [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
  My Solution:
 ```javascript
 
