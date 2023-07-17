@@ -1,4 +1,4 @@
-# Day8: Async JavaScript, Promises
+# Day9: Classes & Prototypes, Wrapping up
 
 
 ## Lesson Summary
@@ -33,5 +33,12 @@
 
 ```
 #  Notes for me => 
-- 
+- object.create(null/ function)
+- prototype
+- the argument that we put in the object.create it is always a proto.
+- this
+-  the implicit parameter set in the execution context allows the function to work with individual objects despite being shared.
+-  to use this in nested functions we put .call() with nested function.
+-  new keyword when using a new keyword it allows to use .prototype .
+-  function.prototype
 
