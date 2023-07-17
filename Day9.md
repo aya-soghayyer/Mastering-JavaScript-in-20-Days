@@ -2,6 +2,7 @@
 
 
 ## Lesson Summary
+in this lesson, I've learned 
 
 
 ## Coding Examples
