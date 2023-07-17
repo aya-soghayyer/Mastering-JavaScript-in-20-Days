@@ -83,11 +83,22 @@ console.log(mapWith([1,2,3], addTwo));
 1. #### [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
  My Solution:
 ```javascript
-
+const squareList = arr => {
+  // Only change code below this line
+ let newarr= arr.filter(n => {
+    return (n >0) && (n%parseInt(n)===0);
+  })
+ newarr= newarr.map( arr => {return arr*arr});
+  return newarr;
+  // Only change code above this line
+}
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+console.log(squaredIntegers);
 ```
 
 
-2. #### [Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
+2. #### [Apply Functional Programming to Convert Strings to URL Slugs
+](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs)
 
   My Solution:
 ```javascript
