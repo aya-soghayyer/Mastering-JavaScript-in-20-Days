@@ -158,7 +158,10 @@ null, or empty string).
 ```javascript
 function isEmptyValue(value) {
   //write your own code here
+    let res = ( value ===  null|| typeof value === 'undefined' ||  value === '')? true : false;
+    return res ;  
 }
+let num = null ;
 ```
 
 -------------------------------------------------------------------
@@ -205,9 +208,22 @@ coercion rules:
 If input is not a primitive type, return the argument.
 
 ```javascript
-const complexCoercion = (input) => {
-  //write your own code here
-}
+let res =
+        //  (typeof input === 'number' 
+        // || typeof input === "string" 
+        // || typeof input=== 'undefined' 
+        // || typeof input === 'symbol' 
+        // || typeof input === 'boolean' 
+        // || typeof input === 'null'
+        // || typeof input === 'bigint')? 
+       (typeof input !== 'object')? (typeof input === 'number')?input.toString()+"edit" 
+                                    : (typeof input=== 'string')? 'edit'
+                                    : (typeof input === 'null' 
+                                    || typeof input === "undefined" )? false  : 'no' : 'non'
+                                         return res ; 
+  }
+  
+  console.log(complexCoercion(undefined))
 ```
 
 ```
