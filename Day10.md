@@ -125,14 +125,13 @@ number using the unary plus operator.
 If the input is not a string, return an object of the input's value and type.
 
 ```javascript
+
 function convertStringToNumber(input) {
-function convertStringToNumber(input) {
-var v = (input !== String(input))? typeof input : Number(input)+1
-return v ; 
+let res = (typeof input === 'string' )? +input : typeof input;
+return res ;
 }
-console.log(convertStringToNumber("3"));
-}
-```
+
+console.log(convertStringToNumber([])```
 
 -------------------------------------------------------------------
 
