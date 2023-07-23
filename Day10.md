@@ -131,7 +131,8 @@ let res = (typeof input === 'string' )? +input : typeof input;
 return res ;
 }
 
-console.log(convertStringToNumber([])```
+console.log(convertStringToNumber([])
+```
 
 -------------------------------------------------------------------
 
@@ -208,6 +209,8 @@ coercion rules:
 If input is not a primitive type, return the argument.
 
 ```javascript
+const complexCoercion = (input) => {
+    //write your own code here
 let res =
         //  (typeof input === 'number' 
         // || typeof input === "string" 
@@ -216,14 +219,14 @@ let res =
         // || typeof input === 'boolean' 
         // || typeof input === 'null'
         // || typeof input === 'bigint')? 
-       (typeof input !== 'object')? (typeof input === 'number')?input.toString()+"edit" 
-                                    : (typeof input=== 'string')? 'edit'
-                                    : (typeof input === 'null' 
-                                    || typeof input === "undefined" )? false  : 'no' : 'non'
+       (typeof input !== 'object')? (typeof input === 'number')?input.toString()+ ' '+true 
+                                    : (typeof input=== 'string')? true                                    : (typeof input === 'null' 
+                                    || typeof input === "undefined" )? false  : 'no' :'non'
                                          return res ; 
   }
   
   console.log(complexCoercion(undefined))
+  
 ```
 
 ```
