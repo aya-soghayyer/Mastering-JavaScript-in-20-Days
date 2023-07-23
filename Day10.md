@@ -143,7 +143,9 @@ Write a function called `checkNaN` that takes a single argument and returns
 ```javascript
 const checkNaN = (value) => {
   //write your own code here
+  return isNaN(value)
 }
+console.log(checkNaN(34-'aya'));
 ```
 
 -------------------------------------------------------------------
@@ -173,7 +175,17 @@ array of the arguments.
 ```javascript
 function compareObjects(input1, input2) {
   //write your own code here
+  let res = (typeof input1 === 'object' && typeof input2 === 'object')? Object.is(input1 , input2): [input1 , input2]
+  return res; 
 }
+const hero1 = {
+  name: 'Batman'
+};
+const hero2 = {
+  name: 'Batman'
+};
+console.log(compareObjects(hero1, hero1));
+console.log(compareObjects(9, 0));
 ```
 
 -------------------------------------------------------------------
