@@ -157,3 +157,5 @@ D) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1, 2, 3 ]`
 
 
 #  Notes for me => 
+- flow and typescript
+- [ts vs flow](https://cdn-blog.scalablepath.com/uploads/2022/12/flow-vs-typscript-key-features.png)
