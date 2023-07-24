@@ -2,9 +2,18 @@
 
 
 ## Lesson Summary
-in this lesson, I've learned about many topics like primitive type and object and what they include also I learned about special values NaN, isNaN, and -0 and how to use them, also when we should put new keywords. 
-
-
+in this lesson, I've learned about many topics :
+flow and typescript
+- [ts vs flow](https://cdn-blog.scalablepath.com/uploads/2022/12/flow-vs-typscript-key-features.png)
+- TypeScript and Flow are similar tools that focus on the same problem: JavaScript's lack of static types.
+- js is not interpreted language.
+- js is excute at compile time and run time.
+- declare two variables with the same name and different scopes call shadowing.
+- Undefined variable means a variable has been declared but does not have a value.
+Undeclared variable means that the variable does not exist in the program at all.
+- source reference : calling a stuff or function or variable or element in the globale scope.
+- target reference : declare a variable in the globale scope.
+- 
 ## Coding Examples
 ```javascript
 
@@ -154,7 +163,8 @@ B) `[ 36, 100, 45 ]` | `[1, 2, 3 ]` | `[ 36, 100, 45 ]`
 C) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1,100, 45 ]`   
 D) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1, 2, 3 ]`
 
-sol: c because 
+sol: c because var can do redelearation on the variable, but let and const can't do that, also javascript compile line by line so when it finished from one, then put the result and go to other line and do the process of that line then put the result. 
+here function testscope3 decleared in a global scope and have a nested scope in the function also it has console.log which will following the global scope, so the code will do the operations in the global function, then when you call the source reference of the function will apear the result 
 
 
 
@@ -164,5 +174,10 @@ sol: c because
 - [ts vs flow](https://cdn-blog.scalablepath.com/uploads/2022/12/flow-vs-typscript-key-features.png)
 - TypeScript and Flow are similar tools that focus on the same problem: JavaScript's lack of static types.
 - js is not interpreted language.
+- js is excute at compile time and run time.
 - declare two variables with the same name and different scopes call shadowing.
+- Undefined variable means a variable has been declared but does not have a value.
+Undeclared variable means that the variable does not exist in the program at all.
+- source reference : calling a stuff or function or variable or element in the globale scope.
+- target reference : declare a variable in the globale scope.
 - 
