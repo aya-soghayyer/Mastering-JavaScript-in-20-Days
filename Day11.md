@@ -1,4 +1,4 @@
-# Day10: Introduction, Types
+# Day11: static typing , scope
 
 
 ## Lesson Summary
@@ -8,6 +8,7 @@ in this lesson, I've learned about many topics like primitive type and object wh
 ## Coding Examples
 ```javascript
 
+```
 
 ## Coding Challenges from FreeCodeCamp
 ## Question 1:
