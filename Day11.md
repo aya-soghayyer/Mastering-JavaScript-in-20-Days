@@ -1,8 +1,8 @@
-# Day11: static typing , scope
+# Day11: static typing, scope
 
 
 ## Lesson Summary
-in this lesson, I've learned about many topics like primitive type and object what they include also I learned about special values NaN, isNaN, and -0 and how to use it, also when we should put new keyword. 
+in this lesson, I've learned about many topics like primitive type and object and what they include also I learned about special values NaN, isNaN, and -0 and how to use them, also when we should put new keywords. 
 
 
 ## Coding Examples
@@ -152,6 +152,7 @@ A) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 36, 2, 3 ]`
 B) `[ 36, 100, 45 ]` | `[1, 2, 3 ]` | `[ 36, 100, 45 ]`   
 C) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1,100, 45 ]`   
 D) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1, 2, 3 ]`
+sol: 
 
 
 
@@ -159,3 +160,7 @@ D) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1, 2, 3 ]`
 #  Notes for me => 
 - flow and typescript
 - [ts vs flow](https://cdn-blog.scalablepath.com/uploads/2022/12/flow-vs-typscript-key-features.png)
+- TypeScript and Flow are similar tools that focus on the same problem: JavaScript's lack of static types.
+- js is not interpreted language.
+- declare two variables with the same name and different scopes call shadowing.
+- 
