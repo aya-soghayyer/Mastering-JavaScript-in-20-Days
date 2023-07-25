@@ -6,11 +6,31 @@ In this lesson, I've learned about many topics :
 
 ## Coding Examples
 ```javascript
+var t = 'aya'; 
+{
+  let t = 'yas'; 
+  console.log(t);
+}
 
+console.log(t);
+//the result:
+// yas
+//aya
+
+var t = 'aya'; 
+{
+  var t = 'yas'; 
+  console.log(t);
+}
+
+console.log(t);
+//the result:
+//yas
+//yas
 ```
 
 ## Coding Challenges :
-# Learning sprint (1), week (3), day (3) delieverables
+# Learning sprint (1), week (3), day (3) deliverables
 
 ## Scope & Function Expressions:
 
@@ -135,4 +155,11 @@ outer2(); // Output: 20
 
 
 #  Notes for me => 
-- 
+- function expression: that a function who declared in a variable.
+- function declaration: how to know that? if the function word is literally in the first thing of the statement.
+- lexical scope:
+- dynamic scope:
+- (Named) Function Declaration > Named Function Expression > Anonymous Function Expression.
+- IIFE pattern
+- block scope: a scope with curly brackets.
+- var or let? 
