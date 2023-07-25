@@ -2,17 +2,17 @@
 
 
 ## Lesson Summary
-in this lesson, I've learned about many topics :
+In this lesson, I've learned about many topics :
 flow and typescript
 - [ts vs flow](https://cdn-blog.scalablepath.com/uploads/2022/12/flow-vs-typscript-key-features.png)
 - TypeScript and Flow are similar tools that focus on the same problem: JavaScript's lack of static types.
 - js is not interpreted language.
-- js is excute at compile time and run time.
-- declare two variables with the same name and different scopes call shadowing.
+- js is executed at compile time and run time.
+- declare two variables with the same name and different scopes called shadowing.
 - Undefined variable means a variable has been declared but does not have a value.
 Undeclared variable means that the variable does not exist in the program at all.
-- source reference : calling a stuff or function or variable or element in the globale scope.
-- target reference : declare a variable in the globale scope.
+- source reference: calling stuff or function or variable or element in the global scope.
+- target reference: declare a variable in the global scope.
 - Benefits:
 1. Catch type-related mistakes 
 2. Communicate type intent
@@ -97,7 +97,7 @@ B) `1`, `undefined`, `ReferenceError`
 C) `1`, `ReferenceError`, `ReferenceError`   
 D) `1`, `ReferenceError`
 
-sol: D becuase the variable declearation happen in the other scope and var has an access the variable decleration , but not the same in variable that declared by let and const .
+sol: D because the variable declaration happens in the other scope and var has access to the variable declaration, but not the same in a variable that is declared by let and const.
 -------------------------------------------------------------------
 
 ### QUESTION #2:
@@ -128,7 +128,7 @@ B) `1`, `undefined`, `ReferenceError`
 C)`undefined`, `undefined`,`ReferenceError`  
 D) `1`, `ReferenceError`
 
-sol: A becuase js is cimpile at line by line so when it print a variable (a) the memory know that some declear for a but it still hidden cuz we print the variable out of the scope and before the declaretion, also in variable  (b) and (c). because they decleared by let and const the result will be referenceError for b and compiler will stop in it so there isn't any exist for variable (c).  
+sol: A because js is compiling line by line so when it prints a variable (a) the memory knows that some declare for a but it is still hidden cuz we print the variable out of the scope and before the declaration, also in a variable  (b) and (c). because they declared by let and const the result will be referenceError for b and the compiler will stop in it so there isn't any existing for a variable (c).  
 -------------------------------------------------------------------
 
 ### QUESTION #3:
@@ -167,8 +167,8 @@ B) `[ 36, 100, 45 ]` | `[1, 2, 3 ]` | `[ 36, 100, 45 ]`
 C) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1,100, 45 ]`   
 D) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1, 2, 3 ]`
 
-sol: c because var can do redelearation on the variable, but let and const can't do that, also javascript compile line by line so when it finished from one, then put the result and go to other line and do the process of that line then put the result. 
-here function testscope3 decleared in a global scope and have a nested scope in the function also it has console.log which will following the global scope, so the code will do the operations in the global function, then when you call the source reference of the function will apear the result 
+sol: c because var can do redeclaration on the variable, but let and const can't do that, also javascript compile line by line so when it finished from one, then put the result and go to other line and do the process of that line then put the result. 
+here function testscope3 is declared in a global scope and has a nested scope in the function also it has console.log which will be following the global scope, so the code will do the operations in the global function, then when you call the source reference of the function will appear the result 
 
 
 
@@ -178,10 +178,10 @@ here function testscope3 decleared in a global scope and have a nested scope in 
 - [ts vs flow](https://cdn-blog.scalablepath.com/uploads/2022/12/flow-vs-typscript-key-features.png)
 - TypeScript and Flow are similar tools that focus on the same problem: JavaScript's lack of static types.
 - js is not interpreted language.
-- js is excute at compile time and run time.
-- declare two variables with the same name and different scopes call shadowing.
+- js is executed at compile time and run time.
+- declare two variables with the same name and different scopes called shadowing.
 - Undefined variable means a variable has been declared but does not have a value.
 Undeclared variable means that the variable does not exist in the program at all.
-- source reference : calling a stuff or function or variable or element in the globale scope.
-- target reference : declare a variable in the globale scope.
+- source reference: calling stuff or function or variable or element in the global scope.
+- target reference: declare a variable in the global scope.
 - 
