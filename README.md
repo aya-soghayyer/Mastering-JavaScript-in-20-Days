@@ -45,6 +45,6 @@ In this challenge, I will enhance my JavaScript skills and knowledge. Each day, 
 - #### [Day9](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/main/Day9.md)
 - #### [Day10](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/main/Day10.md)
 - #### [Day11](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/edit/main/Day11.md)
-- #### [Day12]()
-- #### [Day13]()
+- #### [Day12](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/main/Day12.md)
+- #### [Day13](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/blob/main/Day13.md)
 
