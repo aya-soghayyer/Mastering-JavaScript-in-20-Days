@@ -1,4 +1,4 @@
-# Day12: scope and function expressions, advanced scope.
+# Day13: advanced scope, Closure.
 
 
 ## Lesson Summary
