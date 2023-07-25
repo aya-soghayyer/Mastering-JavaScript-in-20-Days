@@ -13,7 +13,11 @@ flow and typescript
 Undeclared variable means that the variable does not exist in the program at all.
 - source reference : calling a stuff or function or variable or element in the globale scope.
 - target reference : declare a variable in the globale scope.
-- 
+- Benefits:
+1. Catch type-related mistakes 
+2. Communicate type intent
+3. Provide IDE feedback
+
 ## Coding Examples
 ```javascript
 
@@ -93,6 +97,7 @@ B) `1`, `undefined`, `ReferenceError`
 C) `1`, `ReferenceError`, `ReferenceError`   
 D) `1`, `ReferenceError`
 
+sol: D becuase the variable declearation happen in the other scope and var has an access the variable decleration , but not the same in variable that declared by let and const .
 -------------------------------------------------------------------
 
 ### QUESTION #2:
@@ -120,11 +125,10 @@ testScope2();
 
 A) `undefined`, `ReferenceError`   
 B) `1`, `undefined`, `ReferenceError`   
-C)`undefined`, `undefined`,
-`ReferenceError`  
+C)`undefined`, `undefined`,`ReferenceError`  
 D) `1`, `ReferenceError`
 
-sol: 
+sol: A becuase js is cimpile at line by line so when it print a variable (a) the memory know that some declear for a but it still hidden cuz we print the variable out of the scope and before the declaretion, also in variable  (b) and (c). because they decleared by let and const the result will be referenceError for b and compiler will stop in it so there isn't any exist for variable (c).  
 -------------------------------------------------------------------
 
 ### QUESTION #3:
