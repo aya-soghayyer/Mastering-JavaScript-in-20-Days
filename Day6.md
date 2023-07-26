@@ -97,16 +97,29 @@ console.log(squaredIntegers);
 ```
 
 
-2. #### [Apply Functional Programming to Convert Strings to URL Slugs
-](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs)
+2. #### [Apply Functional Programming to Convert Strings to URL Slugs](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs)
 
   My Solution:
 ```javascript
 
 ```
 
-3. #### [Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
+3. ####
+# Learning sprint (1), week (2), day (1) deliverables
 
+## Question 1: Functions and Callbacks
+
+Implement a JavaScript function called mapAsync that takes an array and a callback function. 
+The function should map each element of the array to a new value using the callback function 
+asynchronously. 
+
+The final result should be returned as a Promise.
+
+-------------------------------------------------------------------
+## Question 2: Call Stack and Recursion
+
+Write a JavaScript function called sumRange that calculates the sum of all integers in a given range. 
+The function should use recursion to handle the calculation and demonstrate understanding of the call stack.
 
  My Solution:
 ```javascript
