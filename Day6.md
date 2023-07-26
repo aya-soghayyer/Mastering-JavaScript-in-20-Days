@@ -101,7 +101,16 @@ console.log(squaredIntegers);
 
   My Solution:
 ```javascript
-
+// Only change code below this line
+function urlSlug(title) {
+ return title
+      .toLowerCase()
+      .trim()
+      .split(/\s+/)
+      .join("-");
+}
+// Only change code above this line
+urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 ```
 
 3. ####
@@ -129,3 +138,5 @@ The function should use recursion to handle the calculation and demonstrate unde
 #  Notes for me => 
 - a function we insert in the higher order function is called the call back function.
 - any function that takes in a function or returns one out  automatically is a higher-order function.
+   ![image](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/assets/128791822/7be19b51-66b8-490d-9171-58ba45e2a982)
+
