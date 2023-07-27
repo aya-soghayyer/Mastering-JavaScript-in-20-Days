@@ -1,6 +1,11 @@
 # Day6: Introduction, JavaScript Principles,Functions & Callbacks
 
 ## Lesson Summary
+I've learned :
+- a function we insert in the higher order function is called the call back function.
+- any function that takes in a function or returns one out  automatically is a higher-order function.
+   ![image](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/assets/128791822/7be19b51-66b8-490d-9171-58ba45e2a982)
+
 
 
 ## Coding Examples
@@ -121,22 +126,30 @@ urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 Implement a JavaScript function called mapAsync that takes an array and a callback function. 
 The function should map each element of the array to a new value using the callback function 
 asynchronously. 
-
 The final result should be returned as a Promise.
+
+my Solution:
+```javascript
+
+```
 
 -------------------------------------------------------------------
 ## Question 2: Call Stack and Recursion
 
 Write a JavaScript function called sumRange that calculates the sum of all integers in a given range. 
-The function should use recursion to handle the calculation and demonstrate understanding of the call stack.
+The function should use recursion to handle the calculation and demonstrate an understanding of the call stack.
 
  My Solution:
 ```javascript
+const sumRange = (a, b )=>{
+ if (a<b )
+  return a + sumRange(a+1,b);
+  else return a ; 
+}
+
+console.log(sumRange(1,5));
 
 
 ```
 #  Notes for me => 
-- a function we insert in the higher order function is called the call back function.
-- any function that takes in a function or returns one out  automatically is a higher-order function.
-   ![image](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/assets/128791822/7be19b51-66b8-490d-9171-58ba45e2a982)
-
+- some functions: reduce, map, filter, trim, split, join, replace(  ,   ).
