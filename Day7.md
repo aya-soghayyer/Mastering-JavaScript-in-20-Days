@@ -2,7 +2,15 @@
 
 
 ## Lesson Summary
-
+I've learned :
+- create a brand new via execution context.
+- scope rule: what's called lexical or static scoping t.
+- backpack 
+- closure: is a function having access to the parent scope, even after the parent function has closed.
+- Helper functions are JavaScript functions that you can call from your template.
+- Memoization is a top-down, depth-first, optimization technique of storing previously executed computations. Whenever the program needs the result of these computations, the program will not have to execute that computation again. Instead, it will reuse the result of the previously executed computation. This way the program will not have to repeat expensive computations. An expensive function is a function that takes some time to execute.
+- Execution context is an abstract concept used by the ECMAScript specification to track the runtime evaluation of code. 
+  
 
 ## Coding Examples
 ```javascript
@@ -10,32 +18,69 @@
 ```
 
 ## Coding Challenges from FreeCodeCamp
-1. #### [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
- My Solution:
+# Learning sprint (1), week (2), day (2) deliverables
+
+## Question 1:
+
+Write a closure named createCounter that takes an initial value start and returns a function. 
+The returned function, when invoked, should increment the counter by 1 and return the updated value.
+```javascript
+const createCounter =() => {
+  let start = 0 ;
+  function counterincreament(){
+    start++ ; 
+    return start; 
+  }
+  return counterincreament;
+}
+const count = createCounter();
+console.log(count());
+console.log(count());
+console.log(count());
+console.log(count());
+```
+-------------------------------------------------------------------
+## Question 2:
+
+Write a closure named calculateAverage that takes an array of numbers, nums, and returns a function. 
+The returned function, when invoked, should calculate and return the average of the numbers in the array.
+```javascript
+const calculateAverage = (nums )=> {
+  let sum = 0 ; 
+    let avg ;
+  function Avg(nums){
+     sum  =  nums.reduce((e1,e2)=>{
+      console.log (e1,e2)
+      return e1+e2;
+    })
+    // console.log('the sum '+ sum)
+    avg = sum / nums.length ; 
+    return avg ;
+
+  }
+  // console.log('the average ' + avg)
+  return Avg;
+ }
+
+
+ const arr = [1,2,3,4,5,]
+ const averageCalculator = calculateAverage(arr);
+ console.log('the result is : '+averageCalculator(arr))
+```
+-------------------------------------------------------------------
+## Question 3: 
+
+Write a closure named powerOf that takes a base number base and returns a function. 
+The returned function, when invoked with an exponent exp, should calculate and return the result of base raised to the power of exp.
 ```javascript
 
 ```
+-------------------------------------------------------------------
+## Question 4: 
 
-
-2. #### [Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
-
-  My Solution:
-```javascript
-
-```
-
-3. #### [Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
-
-
- My Solution:
-```javascript
-
-
-```
+Write a closure named compose that takes multiple functions as arguments and returns a new function. 
+The returned function should apply the provided functions in reverse order, passing the result of each function as an argument to the next function.
 #  Notes for me => 
-- create a brand new via execution context.
-- scope rule: what's called lexical or static scoping t.
-- backpack
-- closure
-- helper functions
-- memorization
+```javascript
+
+```
