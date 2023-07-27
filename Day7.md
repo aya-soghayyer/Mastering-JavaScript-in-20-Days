@@ -73,7 +73,20 @@ const calculateAverage = (nums )=> {
 Write a closure named powerOf that takes a base number base and returns a function. 
 The returned function, when invoked with an exponent exp, should calculate and return the result of base raised to the power of exp.
 ```javascript
+const powerOf  = (num)=> {
+    let exp = 4 ; 
+    let expo ;
+    function pow(num, exp){
+      expo = num *num *num *num ;
+      return expo ; 
 
+    }
+    return pow;  
+
+
+}
+const powfun = powerOf(2)
+console.log(powfun(2));
 ```
 -------------------------------------------------------------------
 ## Question 4: 
