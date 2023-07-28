@@ -30,8 +30,6 @@ let duck = new Bird("Donald");
 
 ```
 
-## Coding Challenges from FreeCodeCamp
 
-```
 #  Notes for me => 
 
