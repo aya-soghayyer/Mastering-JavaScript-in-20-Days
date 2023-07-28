@@ -2,6 +2,16 @@
 
 
 ## Lesson Summary
+I'v learned the following : 
+- java script vs web browser features 
+- console -> console 
+- document -> HTML DOC 
+- xhr/fetch -> network request 
+- setTimeout -> timer 
+- ________ -> sockets
+- ________ ->   
+- event loop the feature
+- facade 
 
 
 ## Coding Examples
@@ -143,14 +153,5 @@ const executeInSequenceWithPromises = (apis) => {}
 ```
 
 #  Notes for me => 
-- java script vs web browser features 
-- console -> console 
-- document -> HTML DOC 
-- xhr/fetch -> network request 
-- setTimeout -> timer 
-- ________ -> sockets
-- ________ ->   
-- event loop the feature
-- facade function
 
 
