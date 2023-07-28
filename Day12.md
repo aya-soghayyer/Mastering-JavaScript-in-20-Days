@@ -3,6 +3,21 @@
 
 ## Lesson Summary
 In this lesson, I've learned about many topics :
+- function expression: that a function who declared in a variable.
+- function declaration: how to know that? if the function word is literally in the first thing of the statement.
+- lexical scope:
+- dynamic scope:
+- (Named) Function Declaration > Named Function Expression > Anonymous Function Expression.
+- IIFE pattern
+- block scope: a scope with curly brackets.
+- var or let?
+- Global Scope: Any variable declared outside of a function is said to have Global Scope.
+- Local Scope: Any variable that you declare inside a function is said to have Local Scope. You can access a local variable can within a function. If you try to access any variable defined inside a function from outside or another function, it throws an error.
+- Block Scope: With the introduction of let and const keywords, it added a new type of Scope in JavaScript. You cannot access the variables declared inside a particular block (represented by {}) from outside the block. 
+- Function Scope: With the creation of each new function, it creates a new scope in JavaScript. You cannot access variables defined inside a function from outside the function or from another function. Var, let, and const work similarly when used inside a function.
+  ![image](https://github.com/aya-soghayyer/Mastering-JavaScript-in-20-Days/assets/128791822/af4a6b06-d05a-481b-90e0-564e7ea09a69)
+
+
 
 ## Coding Examples
 ```javascript
@@ -92,7 +107,7 @@ const obj = {
 };
 
 const preserveThis = (func) => {
-  // write your code here;
+  //Write your code here;
   return func;
 }
 
@@ -110,7 +125,7 @@ preservedGreet('Hello'); // Output: "Hello, John!"
 ### QUESTION #3
 
 Consider the 2 following examples and distinguish the different output in each
-one with them with a reasoning.
+one with them with reasoning.
 
 **Example 1:**
 
@@ -128,7 +143,8 @@ function outer1() {
 outer1(); // Output: 10
 ```
 
-> **Reasoning for example 1's output:**  
+> **Reasoning for example 1's output:**
+> because  
 > .................................................................................
 
 --------
@@ -155,11 +171,3 @@ outer2(); // Output: 20
 
 
 #  Notes for me => 
-- function expression: that a function who declared in a variable.
-- function declaration: how to know that? if the function word is literally in the first thing of the statement.
-- lexical scope:
-- dynamic scope:
-- (Named) Function Declaration > Named Function Expression > Anonymous Function Expression.
-- IIFE pattern
-- block scope: a scope with curly brackets.
-- var or let? 
