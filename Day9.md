@@ -30,7 +30,7 @@ let duck = new Bird("Donald");
 
 ```
 ## freeCodeCamp profile: 
-#### (profile)[https://www.freecodecamp.org/aya22]
+#### [profile](https://www.freecodecamp.org/aya22)
 
 
 #  Notes for me => 
