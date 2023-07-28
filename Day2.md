@@ -164,7 +164,7 @@ console.log(spreadOut());
 - concat() did not change the original Array. It changed the new Array.
 - Using immutable data & variables is usually best.
 - if I use mutable value in immutable, we'll break the rule of immutable (I can make some edits in ). 
-- jects collect multiple values together to describe more complex data.
+- objects collect multiple values together to describe more complex data.
   Arrays are just a special kind of object.
 - Properties can point to functions, too. We call function-properties "methods" on objects
 - Functions in js :) => typeof , indexof(""), includes(""), startsWith(""),toLowerCase(), append("").
