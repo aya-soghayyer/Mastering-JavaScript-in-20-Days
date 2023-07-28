@@ -29,6 +29,8 @@ Bird.prototype.numLegs = 2; // prototype property
 let duck = new Bird("Donald");
 
 ```
+## freeCodeCamp profile: 
+#### (profile)[https://www.freecodecamp.org/aya22]
 
 
 #  Notes for me => 
