@@ -303,6 +303,57 @@ others
 my solution:
 
 ```javascript
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alive Character List</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Alive Character List</h1>
+  <ul id="characterList"></ul>
+
+  <script src="./dy5.js"></script>
+</body>
+</html>
+const characterList = document.getElementById('characterList');
+
+async function fetchCharacters() {
+  try {
+    const response = await fetch('https://rickandmortyapi.com/api/character?status=alive');
+    const data = await response.json();
+    const characters = data.results.slice(0, 50);
+
+    characters.forEach((character) => {
+      const li = document.createElement('li');
+      const img = document.createElement('img');
+      const name = document.createElement('h2');
+      const location = document.createElement('p');
+      const species = document.createElement('p');
+      const gender = document.createElement('p');
+
+      img.src = character.image;
+      name.textContent = character.name;
+      location.textContent = `Location: ${character.location.name}`;
+      species.textContent = `Species: ${character.species}`;
+      gender.textContent = `Gender: ${character.gender}`;
+
+      li.appendChild(img);
+      li.appendChild(name);
+      li.appendChild(location);
+      li.appendChild(species);
+      li.appendChild(gender);
+
+      characterList.appendChild(li);
+    });
+  } catch (error) {
+    console.error(error);
+    characterList.innerHTML = '<li>Error fetching characters</li>';
+  }
+}
+
+fetchCharacters();
+
 
 ```
 # Notes for me => 
