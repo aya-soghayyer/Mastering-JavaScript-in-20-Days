@@ -95,23 +95,23 @@ Write a closure named compose that takes multiple functions as arguments and ret
 The returned function should apply the provided functions in reverse order, passing the result of each function as an argument to the next function.
 
 ```javascript
-const one = ()=> {
-  return 1 ; 
+const square = (num)=> {
+  return num*num  ; 
 }
-const two = ()=> {
-  return 2 ; 
+const plus_one = (num )=> {
+  return num + 1 ; 
 }
-const three = ()=> {
-  return 3 ; 
+const sub_one = (num)=> {
+  return num - 1 ; 
 }
 const compose = (fun1, fun2, fun3)=>{
     
-  function rev(fun3){
-    return `${three()} ${two()} ${one()}` 
+  function rev(num){
+    return fun1(fun2(fun3(num)));
   }
-  return rev(fun3);
+  return rev;
 }
-const res = compose(one , two, three );
-console.log(res);
+const res = compose(square , plus_one, sub_one );
+console.log(res(3));
 ```
 #  Notes for me => 
